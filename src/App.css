@@ -1,38 +1,74 @@
+html, body {
+  background-color: hsl(217, 100%, 97%);
+}
+
 .App {
   text-align: center;
+  width: 1440px;
+  background-color: hsl(231, 100%, 99%);
+  margin: 5% auto 0;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar-container {
+  background-image: url("/src/media/bg-sidebar-desktop.svg");
+  width: 19%;
+  margin-left: 2%;
+  height: 567px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.view {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+  margin-left: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle {
+  border: 1px solid hsl(229, 24%, 87%);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.circle p {
+  margin-top: 20%;
+  color: hsl(229, 24%, 87%);
+  font-weight: bolder;
+}
+
+.circle.active {
+  background-color: hsl(206, 94%, 87%);
+}
+
+.circle.active p {
+  color: black;
+}
+
+.panel {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: start;
+  margin-left: 5%;
   color: white;
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+.panel p {
+  margin-top: 0;
+  font-size: 0.75em;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-container {
+  width: 70%;
+  margin: 2% 5% 0 auto;
 }
+
+

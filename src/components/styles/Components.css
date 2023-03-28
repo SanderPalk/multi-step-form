@@ -1,0 +1,57 @@
+.view-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: start;
+}
+
+h1 {
+    font-size: 2.75em;
+    color: hsl(213, 96%, 18%);
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.25em;
+    color: hsl(231, 11%, 63%);
+    margin-bottom: 3%;
+}
+
+.fields {
+    text-align: start;
+    display: flex;
+    height: 310px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button.next-button {
+    background-color: hsl(213, 96%, 18%);
+    cursor: pointer;
+    color: white;
+    padding: 15px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 5%;
+}
+
+button.prev-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: hsl(231, 11%, 63%);
+    font-weight: bolder;
+    font-size: 1.25em;
+    margin-top: 5%;
+}
+
+button.prev-button:hover {
+    color: hsl(213, 96%, 18%);
+}

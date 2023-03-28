@@ -1,0 +1,71 @@
+header {
+    height: 150px;
+}
+
+.summary-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: hsl(217, 100%, 97%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.summary-plan-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.change-plan {
+    all: unset;
+    cursor: pointer;
+    color: hsl(231, 11%, 63%);
+}
+
+.change-plan:hover {
+    text-decoration: underline;
+    color: hsl(243, 100%, 62%);
+}
+
+.plan-total {
+    color: hsl(213, 96%, 18%);
+    font-weight: bolder;
+}
+
+hr {
+    width: 99%;
+    color: hsl(231, 11%, 63%);
+}
+
+.summary-add-on {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-on-total {
+    color: hsl(213, 96%, 18%);;
+}
+
+.total-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.total-amount {
+    color: hsl(243, 100%, 62%);
+    font-weight: bolder;
+}
+
+.thank-you-page {
+    margin-top: 15%;
+}
+
+.thank-you-text {
+    margin: 5% auto 10%;
+    width: 75%;
+}
+
